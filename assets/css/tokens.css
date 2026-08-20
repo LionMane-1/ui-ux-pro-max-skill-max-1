@@ -1,0 +1,154 @@
+/* ==========================================================================
+   Atelier Blanc — Design Tokens
+   Layer 1: primitives  ->  Layer 2: semantic  ->  Layer 3: component
+   Never use a raw hex value outside this file.
+   ========================================================================== */
+
+:root {
+  /* ---- Layer 1: primitives ------------------------------------------- */
+
+  /* Ink — the house black. Warm, never pure. */
+  --c-ink-900: #0e1013;
+  --c-ink-800: #14161a;
+  --c-ink-700: #1d2126;
+  --c-ink-600: #2a2f36;
+  --c-ink-500: #3c424a;
+
+  /* Stone — warm neutral greys for text and rules */
+  --c-stone-600: #454b52;
+  --c-stone-500: #5a5f66;
+  --c-stone-400: #656b72; /* 4.7:1 on the lightest surface — AA for small text */
+  --c-stone-300: #a8aeb6;
+  --c-stone-200: #d8d4cc;
+  --c-stone-100: #eae6de;
+
+  /* Bone — the paper the house prints on */
+  --c-bone-000: #ffffff;
+  --c-bone-050: #faf7f2;
+  --c-bone-100: #f4efe6;
+  --c-bone-200: #ece5d9;
+
+  /* Gilt — the single accent. Used sparingly, like real gold leaf. */
+  --c-gilt-700: #6f5430;
+  --c-gilt-600: #7d6035; /* >=5.1:1 on every light surface — safe for small text */
+  --c-gilt-500: #b08d57; /* decorative / large text only */
+  --c-gilt-400: #c9a96e;
+  --c-gilt-200: #e4d3b3;
+  --c-gilt-100: #f2e8d6;
+
+  /* Verdigris — quiet secondary, used for eco / success signals */
+  --c-sage-700: #2f5545;
+  --c-sage-600: #3d6b57;
+  --c-sage-100: #e3ede8;
+
+  /* Signal */
+  --c-danger-700: #8c1f24;
+  --c-danger-600: #a4262c;
+  --c-danger-100: #fbe9e9;
+
+  /* ---- Layer 2: semantic --------------------------------------------- */
+
+  --bg-page: var(--c-bone-050);
+  --bg-raised: var(--c-bone-000);
+  --bg-sunken: var(--c-bone-100);
+  --bg-contrast: var(--c-ink-800);
+  --bg-contrast-raised: var(--c-ink-700);
+
+  --text-primary: var(--c-ink-800);
+  --text-secondary: var(--c-stone-500);
+  --text-tertiary: var(--c-stone-400);
+  --text-accent: var(--c-gilt-600);
+  --text-on-contrast: var(--c-bone-050);
+  --text-on-contrast-muted: #b9b3a8;
+  --text-danger: var(--c-danger-700);
+
+  --rule-hairline: var(--c-stone-200);
+  --rule-strong: var(--c-ink-800);
+  --rule-on-contrast: rgba(250, 247, 242, 0.16);
+  --rule-accent: var(--c-gilt-500);
+
+  --focus-ring: var(--c-gilt-600);
+  --focus-ring-on-contrast: var(--c-gilt-400);
+
+  /* ---- Space — spacious scale (marketing density) --------------------- */
+  --space-3xs: 0.25rem;  /*  4 */
+  --space-2xs: 0.5rem;   /*  8 */
+  --space-xs:  0.75rem;  /* 12 */
+  --space-sm:  1rem;     /* 16 */
+  --space-md:  1.5rem;   /* 24 */
+  --space-lg:  2rem;     /* 32 */
+  --space-xl:  3rem;     /* 48 */
+  --space-2xl: 4rem;     /* 64 */
+  --space-3xl: 6rem;     /* 96 */
+  --space-4xl: 8rem;     /* 128 */
+
+  --section-y: clamp(4.5rem, 3rem + 7vw, 9.5rem);
+  --gutter: clamp(1.25rem, 0.5rem + 3.2vw, 3rem);
+  --container: 1240px;
+  --container-narrow: 720px;
+
+  /* ---- Type ----------------------------------------------------------- */
+  --font-display: "Cormorant Garamond", Cormorant, Georgia, "Times New Roman", serif;
+  --font-sans: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif;
+  --font-mono: "SFMono-Regular", ui-monospace, Menlo, Consolas, monospace;
+
+  --fs-display: clamp(2.875rem, 1.5rem + 5.6vw, 6rem);
+  --fs-h1:      clamp(2.25rem, 1.45rem + 3.4vw, 4.25rem);
+  --fs-h2:      clamp(1.875rem, 1.35rem + 2.2vw, 3.125rem);
+  --fs-h3:      clamp(1.375rem, 1.15rem + 0.95vw, 1.9rem);
+  --fs-h4:      clamp(1.125rem, 1.05rem + 0.35vw, 1.3rem);
+  --fs-lead:    clamp(1.0625rem, 1rem + 0.4vw, 1.1875rem);
+  --fs-body:    1rem;
+  --fs-sm:      0.9375rem;
+  --fs-xs:      0.8125rem;
+  --fs-eyebrow: 0.75rem;
+
+  --lh-tight: 1.06;
+  --lh-snug: 1.24;
+  --lh-body: 1.65;
+  --lh-relaxed: 1.75;
+
+  --ls-display: -0.02em;
+  --ls-eyebrow: 0.2em;
+
+  /* ---- Shape ---------------------------------------------------------- */
+  --r-xs: 2px;
+  --r-sm: 3px;
+  --r-md: 6px;
+  --r-lg: 10px;
+  --r-pill: 999px;
+
+  /* Luxury reads as light, not heavy. Shadows stay barely-there. */
+  --shadow-xs: 0 1px 2px rgba(20, 22, 26, 0.04);
+  --shadow-sm: 0 2px 8px rgba(20, 22, 26, 0.05);
+  --shadow-md: 0 10px 30px -12px rgba(20, 22, 26, 0.16);
+  --shadow-lg: 0 28px 64px -28px rgba(20, 22, 26, 0.28);
+
+  /* ---- Motion --------------------------------------------------------- */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-instant: 90ms;
+  --dur-fast: 180ms;
+  --dur-base: 280ms;
+  --dur-slow: 520ms;
+  --dur-reveal: 900ms;
+
+  /* ---- Elevation order ------------------------------------------------ */
+  --z-base: 1;
+  --z-sticky: 40;
+  --z-header: 60;
+  --z-drawer: 80;
+  --z-toast: 100;
+
+  --header-h: 76px;
+}
+
+@media (min-width: 1024px) {
+  :root { --header-h: 92px; }
+}
+
+/* Paper grain — one shared texture, encoded so it needs no network request. */
+:root {
+  --texture-grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)' opacity='0.4'/%3E%3C/svg%3E");
+}

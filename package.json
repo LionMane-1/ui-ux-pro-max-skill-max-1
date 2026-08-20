@@ -1,0 +1,17 @@
+{
+  "name": "atelier-blanc",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Atelier Blanc — a luxury garment care website and door-to-door collection booking app. Static HTML, CSS and vanilla JS; no build step.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node tests/serve.mjs",
+    "test": "node tests/functional.mjs && node tests/a11y.mjs",
+    "test:functional": "node tests/functional.mjs",
+    "test:a11y": "node tests/a11y.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.62.0"
+  }
+}

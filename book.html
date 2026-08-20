@@ -1,0 +1,787 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Book a Collection — Atelier Blanc</title>
+  <meta name="description" content="Book a door-to-door collection in four steps. Choose your services, pick a window, and we handle the rest.">
+  <meta name="theme-color" content="#14161a">
+  <meta property="og:title" content="Book a Collection — Atelier Blanc">
+  <meta property="og:description" content="Book a door-to-door collection in four steps. Choose your services, pick a window, and we handle the rest.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='8' fill='%2314161a'/%3E%3Cpath d='M20 18v-1c0-1 .7-1.6 1.5-2a2.2 2.2 0 1 0-3.4-1.9' stroke='%23c9a96e' stroke-width='1.6' fill='none' stroke-linecap='round'/%3E%3Cpath d='M20 18l-9 7c-.9.7-.4 2.2.8 2.2h16.4c1.2 0 1.7-1.5.8-2.2L20 18z' stroke='%23c9a96e' stroke-width='1.6' fill='none' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400&amp;family=Inter:wght@400;500;600&amp;display=swap">
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <script src="assets/js/icons.js"></script>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header is-over-ink">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html" aria-label="Atelier Blanc — home">
+        <svg class="brand__mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+          <circle cx="20" cy="20" r="18.6" stroke="currentColor" stroke-opacity=".3"/>
+          <path d="M20 17.8v-1c0-1 .7-1.6 1.5-2a2.2 2.2 0 1 0-3.4-1.9" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+          <path d="M20 17.8 11 24.8c-.9.7-.4 2.2.8 2.2h16.4c1.2 0 1.7-1.5.8-2.2L20 17.8Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
+        </svg>
+        <span class="brand__text">
+          <span class="brand__name">Atelier&nbsp;Blanc</span>
+          <span class="brand__tag">Garment Care</span>
+        </span>
+      </a>
+
+      <nav class="site-nav" aria-label="Primary">
+        <a class="site-nav__link" href="services.html">Services</a>
+        <a class="site-nav__link" href="pricing.html">Pricing</a>
+        <a class="site-nav__link" href="about.html">The House</a>
+        <a class="site-nav__link" href="contact.html">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn btn--primary btn--sm btn--book" href="book.html">Book a collection</a>
+        <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="nav-drawer">
+          <svg class="icon" aria-hidden="true"><use href="#i-menu"></use></svg>
+          <span class="visually-hidden">Open menu</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="nav-drawer" id="nav-drawer">
+    <div class="nav-drawer__top">
+      <a class="brand" href="index.html" aria-label="Atelier Blanc — home">
+        <svg class="brand__mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+          <circle cx="20" cy="20" r="18.6" stroke="currentColor" stroke-opacity=".3"/>
+          <path d="M20 17.8v-1c0-1 .7-1.6 1.5-2a2.2 2.2 0 1 0-3.4-1.9" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+          <path d="M20 17.8 11 24.8c-.9.7-.4 2.2.8 2.2h16.4c1.2 0 1.7-1.5.8-2.2L20 17.8Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
+        </svg>
+        <span class="brand__text">
+          <span class="brand__name">Atelier&nbsp;Blanc</span>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" data-nav-close>
+        <svg class="icon" aria-hidden="true"><use href="#i-close"></use></svg>
+        <span class="visually-hidden">Close menu</span>
+      </button>
+    </div>
+    <nav class="nav-drawer__list" aria-label="Mobile">
+          <a class="nav-drawer__link" href="services.html">Services <span>01</span></a>
+          <a class="nav-drawer__link" href="pricing.html">Pricing <span>02</span></a>
+          <a class="nav-drawer__link" href="about.html">The House <span>03</span></a>
+          <a class="nav-drawer__link" href="contact.html">Contact <span>04</span></a>
+    </nav>
+    <div class="nav-drawer__foot">
+      <a class="btn btn--gilt btn--lg btn--block" href="book.html">Book a collection</a>
+      <a class="btn btn--outline btn--block" href="tel:+442075550118">
+        <svg class="icon icon--sm" aria-hidden="true"><use href="#i-phone"></use></svg>
+        +44 20 7555 0118
+      </a>
+    </div>
+  </div>
+
+  <main id="main">
+
+    <section class="page-hero on-contrast">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <svg class="icon" aria-hidden="true"><use href="#i-chevron-right"></use></svg>
+          <span aria-current="page">Book a collection</span>
+        </nav>
+        <div class="page-hero__inner">
+          <p class="eyebrow">Four steps &middot; about ninety seconds</p>
+          <h1 class="h1">Book a collection</h1>
+          <p class="lead">
+            Tell us what you need and when you are in. A driver arrives with a
+            reusable garment bag — nothing to print, nothing to package. You will see
+            an estimate as you go, and you are not charged until your pieces have been
+            counted at the atelier.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="booking">
+      <div class="container">
+        <div data-booking>
+          <p class="visually-hidden" data-step-live role="status" aria-live="polite"></p>
+
+          <div class="draft-banner" data-draft-banner hidden>
+            <svg class="icon icon--sm" aria-hidden="true"><use href="#i-refresh"></use></svg>
+            <p>We restored your unfinished booking from this device.</p>
+            <button class="btn btn--outline btn--sm" type="button" data-discard-draft>
+              Start over
+            </button>
+          </div>
+
+          <div class="booking__layout">
+            <div data-wizard>
+
+              <!-- ============ PROGRESS ============ -->
+              <ol class="steps" aria-label="Booking progress">
+                <li class="steps__item" data-step-item data-step-name="Services" data-state="current">
+                  <span class="steps__bar"></span>
+                  <span class="steps__label">
+                    <svg class="icon" data-step-tick hidden aria-hidden="true"><use href="#i-check"></use></svg>
+                    <span aria-hidden="true">1.</span>
+                    <span class="steps__name">Services</span>
+                  </span>
+                </li>
+                <li class="steps__item" data-step-item data-step-name="Collection" data-state="todo">
+                  <span class="steps__bar"></span>
+                  <span class="steps__label">
+                    <svg class="icon" data-step-tick hidden aria-hidden="true"><use href="#i-check"></use></svg>
+                    <span aria-hidden="true">2.</span>
+                    <span class="steps__name">Collection</span>
+                  </span>
+                </li>
+                <li class="steps__item" data-step-item data-step-name="Your details" data-state="todo">
+                  <span class="steps__bar"></span>
+                  <span class="steps__label">
+                    <svg class="icon" data-step-tick hidden aria-hidden="true"><use href="#i-check"></use></svg>
+                    <span aria-hidden="true">3.</span>
+                    <span class="steps__name">Your details</span>
+                  </span>
+                </li>
+                <li class="steps__item" data-step-item data-step-name="Review" data-state="todo">
+                  <span class="steps__bar"></span>
+                  <span class="steps__label">
+                    <svg class="icon" data-step-tick hidden aria-hidden="true"><use href="#i-check"></use></svg>
+                    <span aria-hidden="true">4.</span>
+                    <span class="steps__name">Review</span>
+                  </span>
+                </li>
+              </ol>
+
+              <form id="booking-form" action="#confirmation" method="post" novalidate>
+
+                <!-- ============ STEP 1 ============ -->
+                <section class="step-panel" data-step-panel data-active="true"
+                         aria-labelledby="s1-h">
+                  <div class="error-summary" data-error-summary tabindex="-1" role="alert"></div>
+
+                  <header class="step-panel__head">
+                    <h2 class="h3" id="s1-h" data-step-heading tabindex="-1">What can we take?</h2>
+                    <p>Choose everything you would like collected. Prices shown are the
+                      starting point per piece — you will get an itemised total once your
+                      garments have been counted and inspected.</p>
+                  </header>
+
+                  <fieldset class="fieldset">
+                    <legend>Services <span class="opt">— choose at least one</span></legend>
+                    <div class="choice-grid choice-grid--2" data-require-one="service"
+                         data-summary-label="Services"
+                         data-require-message="Choose at least one service so we know what to send.">
+
+                      <label class="choice">
+                        <input type="checkbox" name="service" value="dry-cleaning">
+                        <span class="choice__box" aria-hidden="true"><svg class="icon"><use href="#i-check"></use></svg></span>
+                        <span class="choice__body">
+                          <span class="choice__title">Dry cleaning</span>
+                          <span class="choice__desc">Suits, coats, jackets, knitwear, tailoring</span>
+                        </span>
+                        <span class="choice__price">from £14.50</span>
+                      </label>
+
+                      <label class="choice">
+                        <input type="checkbox" name="service" value="shirt-service">
+                        <span class="choice__box" aria-hidden="true"><svg class="icon"><use href="#i-check"></use></svg></span>
+                        <span class="choice__body">
+                          <span class="choice__title">Laundered shirts</span>
+                          <span class="choice__desc">Washed and hand-finished, £4.90 from five</span>
+                        </span>
+                        <span class="choice__price">from £5.90</span>
+                      </label>
+
+                      <label class="choice">
+                        <input type="checkbox" name="service" value="press-only">
+                        <span class="choice__box" aria-hidden="true"><svg class="icon"><use href="#i-check"></use></svg></span>
+                        <span class="choice__body">
+                          <span class="choice__title">Press only</span>
+                          <span class="choice__desc">Clean but creased — after travel or storage</span>
+                        </span>
+                        <span class="choice__price">from £3.90</span>
+                      </label>
+
+                      <label class="choice">
+                        <input type="checkbox" name="service" value="eveningwear">
+                        <span class="choice__box" aria-hidden="true"><svg class="icon"><use href="#i-check"></use></svg></span>
+                        <span class="choice__body">
+                          <span class="choice__title">Eveningwear &amp; tailoring</span>
+                          <span class="choice__desc">Beading, sequins, couture, cleaned by hand</span>
+                        </span>
+                        <span class="choice__price">from £24.00</span>
+                      </label>
+
+                      <label class="choice">
+                        <input type="checkbox" name="service" value="bridal">
+                        <span class="choice__box" aria-hidden="true"><svg class="icon"><use href="#i-check"></use></svg></span>
+                        <span class="choice__body">
+                          <span class="choice__title">Bridal &amp; occasion <span class="tag">Quoted</span></span>
+                          <span class="choice__desc">Cleaned, restored and boxed acid-free</span>
+                        </span>
+                        <span class="choice__price">from £195</span>
+                      </label>
+
+                      <label class="choice">
+                        <input type="checkbox" name="service" value="leather">
+                        <span class="choice__box" aria-hidden="true"><svg class="icon"><use href="#i-check"></use></svg></span>
+                        <span class="choice__body">
+                          <span class="choice__title">Leather, suede &amp; fur</span>
+                          <span class="choice__desc">Cleaned, re-oiled and re-coloured in-house</span>
+                        </span>
+                        <span class="choice__price">from £69.00</span>
+                      </label>
+
+                      <label class="choice">
+                        <input type="checkbox" name="service" value="household">
+                        <span class="choice__box" aria-hidden="true"><svg class="icon"><use href="#i-check"></use></svg></span>
+                        <span class="choice__body">
+                          <span class="choice__title">Household &amp; linens</span>
+                          <span class="choice__desc">Duvets, bed linen, curtains, rugs</span>
+                        </span>
+                        <span class="choice__price">from £22.00</span>
+                      </label>
+
+                      <label class="choice">
+                        <input type="checkbox" name="service" value="sneakers">
+                        <span class="choice__box" aria-hidden="true"><svg class="icon"><use href="#i-check"></use></svg></span>
+                        <span class="choice__body">
+                          <span class="choice__title">Sneaker restoration</span>
+                          <span class="choice__desc">Deep clean, de-yellowing, re-glue, re-lace</span>
+                        </span>
+                        <span class="choice__price">from £29.00</span>
+                      </label>
+
+                      <label class="choice">
+                        <input type="checkbox" name="service" value="alterations">
+                        <span class="choice__box" aria-hidden="true"><svg class="icon"><use href="#i-check"></use></svg></span>
+                        <span class="choice__body">
+                          <span class="choice__title">Alterations &amp; repairs</span>
+                          <span class="choice__desc">Hems, waists, zips, invisible mending</span>
+                        </span>
+                        <span class="choice__price">from £14.00</span>
+                      </label>
+
+                      <p class="field__error" data-error></p>
+                    </div>
+                  </fieldset>
+
+                  <div class="wizard-nav">
+                    <span class="wizard-nav__spacer"></span>
+                    <button class="btn btn--primary btn--lg" type="button" data-next>
+                      Continue to collection
+                      <svg class="icon icon--arrow" aria-hidden="true"><use href="#i-arrow-right"></use></svg>
+                    </button>
+                  </div>
+                </section>
+
+                <!-- ============ STEP 2 ============ -->
+                <section class="step-panel" data-step-panel data-active="false"
+                         aria-labelledby="s2-h">
+                  <div class="error-summary" data-error-summary tabindex="-1" role="alert"></div>
+
+                  <header class="step-panel__head">
+                    <h2 class="h3" id="s2-h" data-step-heading tabindex="-1">Where and when</h2>
+                    <p>You do not need to be in. Leave the bag with a concierge, a
+                      neighbour, or somewhere safe you describe below — we will send a
+                      photograph when it is collected.</p>
+                  </header>
+
+                  <fieldset class="fieldset">
+                    <legend>Collection address</legend>
+                    <div class="form-grid form-grid--2">
+                      <div class="field span-2">
+                        <label class="field__label" for="address1">
+                          Address line 1 <span class="req" aria-hidden="true">*</span>
+                        </label>
+                        <input class="input" id="address1" name="address1" type="text"
+                               autocomplete="address-line1" required
+                               aria-describedby="address1-err">
+                        <p class="field__error" id="address1-err" data-error></p>
+                      </div>
+
+                      <div class="field span-2">
+                        <label class="field__label" for="address2">
+                          Address line 2 <span class="opt">(optional)</span>
+                        </label>
+                        <input class="input" id="address2" name="address2" type="text"
+                               autocomplete="address-line2"
+                               placeholder="Flat, building, or entry instructions">
+                        <p class="field__error" data-error></p>
+                      </div>
+
+                      <div class="field">
+                        <label class="field__label" for="city">
+                          Town or city <span class="req" aria-hidden="true">*</span>
+                        </label>
+                        <input class="input" id="city" name="city" type="text"
+                               autocomplete="address-level2" value="London" required
+                               aria-describedby="city-err">
+                        <p class="field__error" id="city-err" data-error></p>
+                      </div>
+
+                      <div class="field">
+                        <label class="field__label" for="postcode">
+                          Postcode <span class="req" aria-hidden="true">*</span>
+                        </label>
+                        <input class="input" id="postcode" name="postcode" type="text"
+                               autocomplete="postal-code" required data-postcode
+                               placeholder="SW3 6PP" aria-describedby="postcode-hint postcode-err">
+                        <p class="field__hint" id="postcode-hint">
+                          We run daily vans across 24 central districts.
+                          <a class="link" href="contact.html#coverage">See the list</a>
+                        </p>
+                        <p class="field__error" id="postcode-err" data-error></p>
+                      </div>
+                    </div>
+                  </fieldset>
+
+                  <fieldset class="fieldset">
+                    <legend>Collection slot</legend>
+                    <div class="form-grid form-grid--2">
+                      <div class="field">
+                        <label class="field__label" for="date">
+                          Date <span class="req" aria-hidden="true">*</span>
+                        </label>
+                        <input class="input" id="date" name="date" type="date" required
+                               aria-describedby="date-hint date-err">
+                        <p class="field__hint" id="date-hint">
+                          From tomorrow, up to sixty days ahead. Sundays are collection only.
+                        </p>
+                        <p class="field__error" id="date-err" data-error></p>
+                      </div>
+
+                      <div class="field">
+                        <span class="field__label" id="window-label">
+                          Four-hour window <span class="req" aria-hidden="true">*</span>
+                        </span>
+                        <div class="pill-grid" role="group" aria-labelledby="window-label"
+                             data-require-one="window"
+                             data-require-message="Pick a collection window so we can route the van.">
+                          <label class="pill-choice">
+                            <input type="radio" name="window" value="07-10"> 07:00 – 10:00
+                          </label>
+                          <label class="pill-choice">
+                            <input type="radio" name="window" value="10-13"> 10:00 – 13:00
+                          </label>
+                          <label class="pill-choice">
+                            <input type="radio" name="window" value="13-17"> 13:00 – 17:00
+                          </label>
+                          <label class="pill-choice">
+                            <input type="radio" name="window" value="17-21"> 17:00 – 21:00
+                          </label>
+                          <p class="field__error" data-error></p>
+                        </div>
+                      </div>
+
+                      <div class="field span-2">
+                        <label class="field__label" for="access">
+                          Access notes <span class="opt">(optional)</span>
+                        </label>
+                        <textarea class="textarea" id="access" name="access" rows="3"
+                                  placeholder="Concierge desk, side gate, buzzer number, where to leave the bag…"></textarea>
+                        <p class="field__error" data-error></p>
+                      </div>
+                    </div>
+                  </fieldset>
+
+                  <div class="wizard-nav">
+                    <button class="btn btn--outline" type="button" data-back>
+                      <svg class="icon icon--sm" aria-hidden="true"><use href="#i-arrow-left"></use></svg>
+                      Back
+                    </button>
+                    <span class="wizard-nav__spacer"></span>
+                    <button class="btn btn--primary btn--lg" type="button" data-next>
+                      Continue to your details
+                      <svg class="icon icon--arrow" aria-hidden="true"><use href="#i-arrow-right"></use></svg>
+                    </button>
+                  </div>
+                </section>
+
+                <!-- ============ STEP 3 ============ -->
+                <section class="step-panel" data-step-panel data-active="false"
+                         aria-labelledby="s3-h">
+                  <div class="error-summary" data-error-summary tabindex="-1" role="alert"></div>
+
+                  <header class="step-panel__head">
+                    <h2 class="h3" id="s3-h" data-step-heading tabindex="-1">Your details</h2>
+                    <p>We use your phone number only to tell you the van is close, and
+                      your email for the collection note and the itemised total.</p>
+                  </header>
+
+                  <fieldset class="fieldset">
+                    <legend>Contact</legend>
+                    <div class="form-grid form-grid--2">
+                      <div class="field">
+                        <label class="field__label" for="firstName">
+                          First name <span class="req" aria-hidden="true">*</span>
+                        </label>
+                        <input class="input" id="firstName" name="firstName" type="text"
+                               autocomplete="given-name" required aria-describedby="firstName-err">
+                        <p class="field__error" id="firstName-err" data-error></p>
+                      </div>
+
+                      <div class="field">
+                        <label class="field__label" for="lastName">
+                          Last name <span class="req" aria-hidden="true">*</span>
+                        </label>
+                        <input class="input" id="lastName" name="lastName" type="text"
+                               autocomplete="family-name" required aria-describedby="lastName-err">
+                        <p class="field__error" id="lastName-err" data-error></p>
+                      </div>
+
+                      <div class="field">
+                        <label class="field__label" for="email">
+                          Email <span class="req" aria-hidden="true">*</span>
+                        </label>
+                        <input class="input" id="email" name="email" type="email"
+                               autocomplete="email" required inputmode="email"
+                               aria-describedby="email-err">
+                        <p class="field__error" id="email-err" data-error></p>
+                      </div>
+
+                      <div class="field">
+                        <label class="field__label" for="phone">
+                          Mobile <span class="req" aria-hidden="true">*</span>
+                        </label>
+                        <input class="input" id="phone" name="phone" type="tel"
+                               autocomplete="tel" required inputmode="tel"
+                               placeholder="07700 900123" aria-describedby="phone-err">
+                        <p class="field__error" id="phone-err" data-error></p>
+                      </div>
+                    </div>
+                  </fieldset>
+
+                  <fieldset class="fieldset">
+                    <legend>Preferences <span class="opt">— we will remember these</span></legend>
+                    <div class="choice-grid choice-grid--2">
+                      <label class="choice">
+                        <input type="checkbox" name="preference" value="eco">
+                        <span class="choice__box" aria-hidden="true"><svg class="icon"><use href="#i-check"></use></svg></span>
+                        <span class="choice__body">
+                          <span class="choice__title">Eco solvent only</span>
+                          <span class="choice__desc">Wet cleaning wherever the fibre allows it</span>
+                        </span>
+                      </label>
+                      <label class="choice">
+                        <input type="checkbox" name="preference" value="fragrance">
+                        <span class="choice__box" aria-hidden="true"><svg class="icon"><use href="#i-check"></use></svg></span>
+                        <span class="choice__body">
+                          <span class="choice__title">Fragrance-free finish</span>
+                          <span class="choice__desc">No finishing scent at all</span>
+                        </span>
+                      </label>
+                      <label class="choice">
+                        <input type="checkbox" name="preference" value="starch">
+                        <span class="choice__box" aria-hidden="true"><svg class="icon"><use href="#i-check"></use></svg></span>
+                        <span class="choice__body">
+                          <span class="choice__title">Medium starch on shirts</span>
+                          <span class="choice__desc">Collars and cuffs, not the body</span>
+                        </span>
+                      </label>
+                      <label class="choice">
+                        <input type="checkbox" name="preference" value="hangers">
+                        <span class="choice__box" aria-hidden="true"><svg class="icon"><use href="#i-check"></use></svg></span>
+                        <span class="choice__body">
+                          <span class="choice__title">Return on wooden hangers</span>
+                          <span class="choice__desc">We take the old ones away to reuse</span>
+                        </span>
+                      </label>
+                      <label class="choice">
+                        <input type="checkbox" name="preference" value="no-crease">
+                        <span class="choice__box" aria-hidden="true"><svg class="icon"><use href="#i-check"></use></svg></span>
+                        <span class="choice__body">
+                          <span class="choice__title">No crease in trousers</span>
+                          <span class="choice__desc">Pressed flat-fronted</span>
+                        </span>
+                      </label>
+                      <label class="choice">
+                        <input type="checkbox" name="preference" value="repair">
+                        <span class="choice__box" aria-hidden="true"><svg class="icon"><use href="#i-check"></use></svg></span>
+                        <span class="choice__body">
+                          <span class="choice__title">Flag repairs before cleaning</span>
+                          <span class="choice__desc">Call me with a quote first</span>
+                        </span>
+                      </label>
+                    </div>
+                  </fieldset>
+
+                  <div class="field">
+                    <label class="field__label" for="notes">
+                      Anything we should know about the garments? <span class="opt">(optional)</span>
+                    </label>
+                    <textarea class="textarea" id="notes" name="notes" rows="4"
+                              placeholder="Red wine on the left cuff, a loose button on the navy coat, the grey suit is needed by Friday…"></textarea>
+                    <p class="field__hint">The more you tell the spotting bench, the
+                      better the result. Age and origin of a stain matter more than size.</p>
+                    <p class="field__error" data-error></p>
+                  </div>
+
+                  <div class="wizard-nav">
+                    <button class="btn btn--outline" type="button" data-back>
+                      <svg class="icon icon--sm" aria-hidden="true"><use href="#i-arrow-left"></use></svg>
+                      Back
+                    </button>
+                    <span class="wizard-nav__spacer"></span>
+                    <button class="btn btn--primary btn--lg" type="button" data-next>
+                      Review the booking
+                      <svg class="icon icon--arrow" aria-hidden="true"><use href="#i-arrow-right"></use></svg>
+                    </button>
+                  </div>
+                </section>
+
+                <!-- ============ STEP 4 ============ -->
+                <section class="step-panel" data-step-panel data-active="false"
+                         aria-labelledby="s4-h">
+                  <div class="error-summary" data-error-summary tabindex="-1" role="alert"></div>
+
+                  <header class="step-panel__head">
+                    <h2 class="h3" id="s4-h" data-step-heading tabindex="-1">Check it over</h2>
+                    <p>Nothing is charged now. You will receive an itemised total to
+                      approve once your garments have been counted at the atelier.</p>
+                  </header>
+
+                  <dl class="review-list" data-review>
+                    <div class="review-row" data-no-js-only>
+                      <dt>Summary</dt>
+                      <dd>Your review appears here once you have filled in the form above.</dd>
+                    </div>
+                  </dl>
+
+                  <div class="field mt-lg"
+                       data-summary-label="The care policy"
+                       data-required-message="Please accept the care policy to place the booking.">
+                    <label class="choice">
+                      <input type="checkbox" id="terms" name="terms" required>
+                      <span class="choice__box" aria-hidden="true"><svg class="icon"><use href="#i-check"></use></svg></span>
+                      <span class="choice__body">
+                        <span class="choice__title">I accept the care policy</span>
+                        <span class="choice__desc">Garments are insured to £15,000 from
+                          door to door. We contact you before attempting any treatment
+                          that carries risk, and before any work over your estimate.</span>
+                      </span>
+                    </label>
+                    <p class="field__error" data-error></p>
+                  </div>
+
+                  <div class="field mt-sm">
+                    <label class="choice">
+                      <input type="checkbox" id="updates" name="updates">
+                      <span class="choice__box" aria-hidden="true"><svg class="icon"><use href="#i-check"></use></svg></span>
+                      <span class="choice__body">
+                        <span class="choice__title">Send me seasonal care notes <span class="opt">(optional)</span></span>
+                        <span class="choice__desc">Four emails a year on storing, moth
+                          season and when to actually clean a coat. Nothing else.</span>
+                      </span>
+                    </label>
+                  </div>
+
+                  <div class="wizard-nav">
+                    <button class="btn btn--outline" type="button" data-back>
+                      <svg class="icon icon--sm" aria-hidden="true"><use href="#i-arrow-left"></use></svg>
+                      Back
+                    </button>
+                    <span class="wizard-nav__spacer"></span>
+                    <button class="btn btn--gilt btn--lg" type="submit">
+                      Confirm collection
+                      <svg class="icon icon--arrow" aria-hidden="true"><use href="#i-arrow-right"></use></svg>
+                    </button>
+                  </div>
+                </section>
+
+              </form>
+            </div>
+
+            <!-- ============ SUMMARY ============ -->
+            <aside class="summary" data-summary-aside aria-labelledby="summary-h">
+              <div class="summary__head">
+                <h2 id="summary-h">Your collection</h2>
+                <svg class="icon" aria-hidden="true"><use href="#i-hanger"></use></svg>
+              </div>
+              <div class="summary__body" data-summary aria-live="polite"></div>
+              <div class="summary__total">
+                <div class="summary__total-row">
+                  <span>Services from</span><span data-total-subtotal>&mdash;</span>
+                </div>
+                <div class="summary__total-row">
+                  <span>Collection &amp; delivery</span><span data-total-delivery>&mdash;</span>
+                </div>
+                <div class="summary__total-row">
+                  <span>Estimated total</span><strong data-total-grand>&mdash;</strong>
+                </div>
+                <p class="summary__note" data-free-note hidden></p>
+                <p class="summary__note">
+                  An estimate, not an invoice. Final pricing follows a piece-by-piece
+                  count at the atelier, and we send it to you before any work begins.
+                </p>
+              </div>
+            </aside>
+          </div>
+
+          <!-- ============ CONFIRMATION ============ -->
+          <div id="confirmation" data-confirm-panel hidden>
+            <div class="confirm">
+              <span class="confirm__seal">
+                <svg class="icon" style="width:44px;height:44px" aria-hidden="true"><use href="#i-check"></use></svg>
+              </span>
+              <h2 class="h2" data-step-heading tabindex="-1">Your van is booked</h2>
+              <p class="lead mt-md">
+                A confirmation is on its way to
+                <strong data-confirm-email>your inbox</strong>. We will message you on
+                the morning of collection with a two-hour narrowing of the window.
+              </p>
+
+              <p class="confirm__ref">
+                <svg class="icon icon--sm" aria-hidden="true"><use href="#i-tag"></use></svg>
+                <span data-confirm-ref>AB-000000-0000</span>
+              </p>
+
+              <dl class="review-list mt-xl" style="text-align:left">
+                <div class="review-row">
+                  <dt>Collection</dt>
+                  <dd><span data-confirm-date></span><br><span data-confirm-window></span></dd>
+                  <dd></dd>
+                </div>
+                <div class="review-row">
+                  <dt>Estimate</dt>
+                  <dd data-confirm-total></dd>
+                  <dd></dd>
+                </div>
+                <div class="review-row">
+                  <dt>Next</dt>
+                  <dd>Leave your garments in any bag. Our driver brings the reusable
+                    one and takes yours back to you next time.</dd>
+                  <dd></dd>
+                </div>
+              </dl>
+
+              <div class="cluster mt-xl" style="justify-content:center">
+                <a class="btn btn--primary btn--lg" href="index.html">Back to the house</a>
+                <a class="btn btn--outline btn--lg" href="book.html">Book another collection</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ REASSURANCE ============ -->
+    <section class="section section--tight section--sunken" aria-labelledby="reassure-heading">
+      <div class="container">
+        <h2 class="visually-hidden" id="reassure-heading">What happens after you book</h2>
+        <div class="grid grid--4">
+          <div class="info-card" data-reveal="stagger">
+            <svg class="icon" aria-hidden="true"><use href="#i-van"></use></svg>
+            <dt>No packaging needed</dt>
+            <dd>The driver arrives with a reusable garment bag. Use any bag you have
+              for the first collection.</dd>
+          </div>
+          <div class="info-card" data-reveal="stagger">
+            <svg class="icon" aria-hidden="true"><use href="#i-card"></use></svg>
+            <dt>Nothing charged today</dt>
+            <dd>You approve an itemised total after your pieces are counted and
+              inspected.</dd>
+          </div>
+          <div class="info-card" data-reveal="stagger">
+            <svg class="icon" aria-hidden="true"><use href="#i-shield-check"></use></svg>
+            <dt>Insured door to door</dt>
+            <dd>Every garment covered to £15,000, settled at replacement value.</dd>
+          </div>
+          <div class="info-card" data-reveal="stagger">
+            <svg class="icon" aria-hidden="true"><use href="#i-clock"></use></svg>
+            <dt>Change it any time</dt>
+            <dd>Move or cancel a collection up to two hours before the window opens,
+              free.</dd>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__grid">
+        <div class="site-footer__about">
+          <a class="brand" href="index.html" aria-label="Atelier Blanc — home">
+            <svg class="brand__mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+          <circle cx="20" cy="20" r="18.6" stroke="currentColor" stroke-opacity=".3"/>
+          <path d="M20 17.8v-1c0-1 .7-1.6 1.5-2a2.2 2.2 0 1 0-3.4-1.9" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+          <path d="M20 17.8 11 24.8c-.9.7-.4 2.2.8 2.2h16.4c1.2 0 1.7-1.5.8-2.2L20 17.8Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
+        </svg>
+            <span class="brand__text">
+              <span class="brand__name">Atelier&nbsp;Blanc</span>
+              <span class="brand__tag">Est. 1998</span>
+            </span>
+          </a>
+          <p class="mt-md">A garment care house in Chelsea. We clean, press, restore
+            and preserve the pieces people keep — and we collect them from your door.</p>
+          <ul class="social">
+            <li><a href="#" aria-label="Atelier Blanc on Instagram"><svg class="icon icon--sm" aria-hidden="true"><use href="#i-instagram"></use></svg></a></li>
+            <li><a href="#" aria-label="Atelier Blanc on Facebook"><svg class="icon icon--sm" aria-hidden="true"><use href="#i-facebook"></use></svg></a></li>
+            <li><a href="#" aria-label="Atelier Blanc on LinkedIn"><svg class="icon icon--sm" aria-hidden="true"><use href="#i-linkedin"></use></svg></a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h2>Services</h2>
+          <ul>
+            <li><a href="services.html#dry-cleaning">Dry cleaning</a></li>
+            <li><a href="services.html#shirt-service">Laundered shirts</a></li>
+            <li><a href="services.html#eveningwear">Eveningwear &amp; tailoring</a></li>
+            <li><a href="services.html#bridal">Bridal preservation</a></li>
+            <li><a href="services.html#leather">Leather, suede &amp; fur</a></li>
+            <li><a href="services.html#household">Household &amp; linens</a></li>
+            <li><a href="services.html#alterations">Alterations &amp; repairs</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h2>The House</h2>
+          <ul>
+            <li><a href="about.html">Our story</a></li>
+            <li><a href="about.html#craft">How we clean</a></li>
+            <li><a href="about.html#sustainability">Sustainability</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="pricing.html#membership">Membership</a></li>
+            <li><a href="contact.html#coverage">Collection areas</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h2>Visit</h2>
+          <ul>
+            <li><a href="contact.html">18 Sydney Street<br>Chelsea, London SW3 6PP</a></li>
+            <li><a href="tel:+442075550118">+44 20 7555 0118</a></li>
+            <li><a href="mailto:atelier@atelierblanc.example">atelier@atelierblanc.example</a></li>
+          </ul>
+          <div class="hours mt-md">
+            <div class="hours__row"><span>Mon – Fri</span><span>07:00 – 20:00</span></div>
+            <div class="hours__row"><span>Saturday</span><span>08:00 – 18:00</span></div>
+            <div class="hours__row"><span>Sunday</span><span>Collections only</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="site-footer__bottom">
+        <p>&copy; <span data-year>2026</span> Atelier Blanc Garment Care Ltd. A fictional
+          house, built as a design reference.</p>
+        <nav aria-label="Legal">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Care policy</a>
+          <a href="#">Accessibility</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/js/site.js" defer></script>
+  <script src="assets/js/booking.js" defer></script>
+</body>
+</html>
