@@ -6,7 +6,7 @@ Marketing agency for Afro hair salons in the UK.
 
 | Folder | Purpose |
 |---|---|
-| `brand/` | Agency brand identity: name, logo, voice, visual guidelines |
+| `brand/` | Logo, brand voice framework and brand guidelines (see `brand/README.md`) |
 | `research/` | UK Afro hair market, competitors, audience and local-search insight |
 | `services/` | Service packages, pricing and proposals |
 | `clients/` | One subfolder per salon client (briefs, assets, contracts) |
