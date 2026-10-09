@@ -11,6 +11,6 @@ Marketing agency for Afro hair salons in the UK.
 | `services/` | Service packages and pricing proposal (`service-packages.md`, `pricing-proposal.md`) |
 | `clients/` | One subfolder per salon client (briefs, assets, contracts) |
 | `campaigns/` | Campaign plans and creative by client or launch |
-| `content/` | Social, email, blog and website copy and calendars |
+| `content/` | Social, email, blog and website copy and calendars (see `social-motion-graphics-todo.md`) |
 | `templates/` | Reusable proposals, briefs, reports and onboarding docs |
 | `reports/` | Performance reports and KPI tracking |
