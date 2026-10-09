@@ -33,7 +33,7 @@ Reuse the bespoke Week 1–2 carousels from the copy bank. Order matters: recogn
 | 4 | `m4ah_w02_d02_carousel` | After Hours | Enquiries arrive when the salon is closed. |
 | 5 | `m4ah_w01_d06_carousel` | Booking Maze | Website bridge, service #2. |
 | 6 | `m4ah_w01_d04_carousel` | Invisible Expertise | Authority without bragging. |
-| 7 | `m4ah_w01_d07_carousel` | Count The Gaps | A do-it-yourself diary check they can run with pen and paper. Cut any calculator mention from the final slide. |
+| 7 | `m4ah_w01_d07_carousel` | Count The Gaps | A do-it-yourself diary check they can run with pen and paper. Use the default CTA, not the calculator fallback. |
 | 8 | `m4ah_w02_d07_carousel` | Recovery Isn't Revenue | Honest expectations; separates you from "guaranteed ROI" pitches. |
 | 9 | `m4ah_w10_d01_carousel` (also launch day 15 in the copy bank; confirm which version you use` | AI Needs Boundaries | Trust: what AI will not do, and when a human takes over. |
 
@@ -44,7 +44,7 @@ Reuse the bespoke Week 1–2 carousels from the copy bank. Order matters: recogn
 ### Visual consistency
 Cream `#FCF8F4`, copper `#B66A2C`, espresso `#31221D`, gold `#F5BE1A`; Manrope headings, Inter body. Cover ≤3 words. Check legibility at phone size.
 
-**CTA on every post:** a practical check or a question, never a link. Examples: "Check one Tuesday in your diary today" or "Tell me: who answers the phone mid-style?". This also replaces any calculator or demo ending in the copy bank on these nine posts.
+**CTA check (verified against the CSV):** 7 of the 9 posts already end on a practical, non-commercial check (for example "Check one enquiry journey today"). Only `m4ah_w01_d07` (Count The Gaps) and `m4ah_w02_d07` (Recovery Isn't Revenue) name the Revenue Leak Calculator, and only in the *Conditional replacement CTA* column ("Use the Revenue Leak Calculator through the verified profile link") plus the Destination column. Their default on-slide CTA, "Choose one bottleneck for next week", is fine. For this phase: use the default CTA, never the conditional one, and leave the destination blank. Do not publish a link on any of the nine.
 
 ## 3. Reels (optional, 1–2, no product pitch)
 1. **"Who answers mid-style?"** — Keisha-led scene (illustrative, labelled) showing a missed call during a style and what the owner does next. Ends with a question to viewers.
