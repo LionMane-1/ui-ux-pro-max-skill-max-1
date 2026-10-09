@@ -3,3 +3,4 @@
 Container for all Max 2 project work.
 
 - `brag-motion-graphics/` - motion graphics projects
+- `atelier-blanc/` - luxury garment care website (static HTML/CSS/JS)
