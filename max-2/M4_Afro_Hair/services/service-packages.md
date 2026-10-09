@@ -1,6 +1,6 @@
 # M4 AH Service Packages (DRAFT)
 
-Status: draft for review. **All prices are placeholders (£X)** - no price points have been set yet.
+Status: draft for review. Prices are placeholders (£X) here. See `pricing-proposal.md` for the proposed figures awaiting approval.
 Built from the Brand Voice Framework (`brand/voice/`): benefit first, plain English, prices and deliverables stated upfront, no overpromising.
 
 ## Positioning
